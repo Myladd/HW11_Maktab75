@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <table class="table-fixed text-center w-full mt-36">
+        <thead>
+          <tr class="border-b-2">
+            <th class="p-4">Class</th>
+            <th>Heading</th>
+            <th>Heading</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="tr-1" class="def-row border-b-2">
+            <td class="p-4">Default</td>
+            <td>cell</td>
+            <td>cell</td>
+          </tr>
+          <tr id="tr-2" class="border-b-2">
+            <td class="p-4">Primary</td>
+            <td>cell</td>
+            <td>cell</td>
+          </tr>
+          <tr id="tr-3" class="border-b-2">
+            <td class="p-4">Secondary</td>
+            <td>cell</td>
+            <td>cell</td>
+          </tr>
+          <tr id="tr-4" class="border-b-2">
+            <td class="p-4">Success</td>
+            <td>cell</td>
+            <td>cell</td>
+          </tr>
+          <tr id="tr-5" class="border-b-2">
+            <td class="p-4">Danger</td>
+            <td>cell</td>
+            <td>cell</td>
+          </tr>
+          <tr id="tr-6" class="border-b-2">
+            <td class="p-4">Warning</td>
+            <td>cell</td>
+            <td>cell</td>
+          </tr>
+          <tr id="tr-7" class="border-b-2">
+            <td class="p-4">Info</td>
+            <td>cell</td>
+            <td>cell</td>
+          </tr>
+          <tr id="tr-8" class="border-b-2">
+            <td class="p-4">Light</td>
+            <td>cell</td>
+            <td>cell</td>
+          </tr>
+          <tr id="tr-9" class="border-b-2 text-white">
+            <td class="p-4">Dark</td>
+            <td>cell</td>
+            <td>cell</td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="mt-16 rounded-full bg-indigo-300 w-80 h-16" onclick="removeTr()">Delete 1 to 5</button>
+      <button class="mt-16 rounded-full bg-indigo-300 w-80 h-16" onclick="addTr()">Add 3 lines</button>
+
+
+
+
+
+      <script src="./app.js"></script>
+</body>
+</html>
